@@ -1,0 +1,143 @@
+body{
+    font-size: 17px;
+    background-color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+.page-name{
+    text-align: center;
+}
+.title_major {
+    font-size: 70px;
+    background: -webkit-linear-gradient(left,#f30 25%, #ff0 50%, #40ff00 35%, #0bffff 70%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    z-index: 2;
+    background-color: rgb(255,255,255,0.5);
+    left: 36%;
+    top: 5%;
+}
+.banner_image{
+    background-image: url("/public/defect-banner.jpg");
+    width:100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(2px);
+    background-position: center;
+    transform: scale(1);
+}
+.banner_content{
+    height:200px;
+}
+.banner_extend{
+    padding-top: 30px;
+}
+.link{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+}
+.link:hover{
+    text-decoration:underline;
+    transition: 0.2s;
+    color: black;
+}
+.link-absent{
+    color: gray;
+    font-size: 15px;
+    text-decoration: none;
+}
+.queue{
+    margin-left: 30px;
+}
+.center{
+    text-align: center;
+}
+.outer-box{
+    margin:10px;
+    padding: 10px; 
+}
+.border-1px{
+    border: 1px solid black;
+}
+.red-text{
+    color:red;
+}
+select{
+    width:50px;
+    /* height:; */
+    border-radius: 10px;
+    padding-top:  3px;
+    padding-bottom:3px;
+    padding-left: 3px;
+}
+.select-item{
+    border-radius: 10px;
+}
+
+/* table */
+table{
+    width: 99%;
+    border-collapse: collapse;
+}
+thead tr th{
+    background-color:burlywood;
+    border: 2px solid black;
+    padding:10px;
+    text-align: center;
+}
+tbody tr td{
+    background-color:azure;
+    border:2px solid black;
+    padding:10px
+}
+tbody tr:hover{
+    cursor: pointer;
+}
+
+/* form */
+label {
+    font-family: sans-serif;
+    margin-left: 10px;
+}
+input {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    height: 25px;
+    border-radius: 5px;
+    border: 2px solid #c3bbbb;
+    font-size: 15px;
+    padding: 5px;
+    padding-left: 10px;
+}
+input[type="submit"] {
+    width: 80px;
+    height: 40px;
+    background-color: aqua;
+    border: 2px solid cornflowerblue;
+}
+input:focus-visible,input[type="submit"]:hover,textarea:focus-visible{
+    outline:none;
+    border-color: #fff5ff;
+    box-shadow: 0 0 10px #9b9999;
+    background-color: #fff5ff;
+    transition-duration: 0.2s;
+}
+textarea{
+    margin-left: 10px;
+    margin-bottom: 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 2px solid #c3bbbb;
+    font-size: 15px;
+    padding: 5px;
+    padding-left: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
