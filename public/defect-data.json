@@ -1,5 +1,0 @@
-[
-    {"category":"UI","description":"Submit button coming to the extreme left. Refer the screenshots","priority":2,"status":"open"},
-    {"category":"Functional","description":"While submitting the form data, a confirmation popup should appear. Refer the SRS document.","priority":1,"status":"open"},
-    {"category":"Change Request","description":"Add remove user functionality","priority":3,"status":"closed"}
-]
