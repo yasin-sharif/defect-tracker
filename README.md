@@ -1,10 +1,13 @@
-# Defect Tracking React Web Application
-Ongoing react based web project created for learning purpose. <br/>
-See app_2.0 branch for updated code.
+# Software Defect Tracking React Web Application
+React based web project created for learning purpose. <br/>
+See app_3.0 branch for updated code.
 
-> PROJECT IS STILL EVOLVING
-
-![login page](/assets/login%20page.jpg)
-![on loging in](/assets/on%20login.jpg)
-![dashboard](/assets/dashboard.jpg)
-![add defect](/assets/add%20defect.jpg)
+![](/assets/01.jpg)
+![](/assets/02.jpg)
+![](/assets/03.jpg)
+![](/assets/04.jpg)
+![](/assets/05.jpg)
+![](/assets/06.jpg)
+![](/assets/07.jpg)
+![](/assets/08.jpg)
+![](/assets/09.jpg)
