@@ -1,0 +1,16 @@
+{
+    "users":[
+        {
+            "username":"test",
+            "password":"test",
+            "role":"tester",
+            "id":0
+        },
+        {
+            "username":"code",
+            "password":"code",
+            "role":"developer",
+            "id":1
+        }
+    ]
+}
