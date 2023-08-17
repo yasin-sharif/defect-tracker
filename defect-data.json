@@ -1,0 +1,25 @@
+{
+  "defect": [
+    {
+      "category": "UI",
+      "description": "Button alignment for login in index page is not in correct position. Interfering with text contents.",
+      "priority": 2,
+      "status": "open",
+      "id": 1
+    },
+    {
+      "category": "Functionality",
+      "description": "Forgot password link is not working.",
+      "priority": 1,
+      "status": "in progress",
+      "id": 2
+    },
+    {
+      "category": "UI",
+      "description": "Mobile view for \"About Us\" page is faulty.",
+      "priority": 1,
+      "status": "open",
+      "id": 3
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+.link{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: black;
+    margin-left:30px;
+    margin-top:30px;
+}
+.link:hover{
+    text-decoration:underline;
+    transition: 0.2s;
+    color: black;
+    cursor: pointer;
+}
+.link-absent{
+    color: gray;
+    font-size: 15px;
+    text-decoration: none;
+}
+.center{
+    text-align: center;
+}
+.train-box{
+    padding-top:20px;
+}
+.queue{
+    margin-left:30px;   
+}
+.margin-right{
+    margin-right:30px;
+}
